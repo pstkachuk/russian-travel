@@ -1,0 +1,8 @@
+.place {
+  display: grid;
+  gap: 48px 40px;
+  grid-template-columns: minmax(320px, 460px) auto;
+  grid-template-areas:
+    "title website"
+    "image text";
+}
