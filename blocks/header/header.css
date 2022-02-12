@@ -1,5 +1,5 @@
 .header {
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   margin: 0 auto;
   display: flex;
   align-items: center;
