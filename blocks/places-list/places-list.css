@@ -12,3 +12,9 @@
     gap: 73px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places-list {
+    gap: 50px;
+  }
+}

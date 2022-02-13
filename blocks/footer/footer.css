@@ -13,17 +13,12 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .footer {
-    max-width: calc(100% - 16px*2);
-  }
-}
-
 @media screen and (max-width: 699px) {
   .footer {
     flex-direction: column;
     gap: 48px;
     align-items: flex-start;
+    max-width: calc(100% - 16px*2);
   }
 
 }
