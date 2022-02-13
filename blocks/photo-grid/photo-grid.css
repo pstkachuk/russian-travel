@@ -12,3 +12,19 @@
     gap: 14px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    padding-top: 88px;
+    max-width: calc(100% - 24px*2);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .photo-grid {
+    padding-top: 64px;
+    max-width: calc(100% - 16px*2);
+    gap: 12px;
+  }
+}

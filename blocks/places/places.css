@@ -9,3 +9,17 @@
     max-width: calc(100% - 48px*2);
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding-top: 88px;
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding-top: 64px;
+    max-width: 100%;
+  }
+}
